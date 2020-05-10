@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="utf-8">
+<title>Flota del sur</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="href=/css/bootstrap.css" rel="stylesheet" th:href="@{/css/bootstrap.css}"/>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="normalize.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script type="text/javascript" src="media.js"></script>
+		
+		<!--Scroll reveal-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+	
+<!--Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><h2>Flota del sur</h2></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#Home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Cotiza">Cotizador</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Quienes">Quienes somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Tours">Tours</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Registro">Registrese</a>
+              </li>
+
+        </ul>
+      </div>
+        </div>
+  </nav>
+  
+  <!--Header-->
+<header id="Home">
+<div class="jumbotron text-center">
+ <h1>Bienvenidos</h1>
+ <p>A la mejor experiencia en Traslado</p>
+</div>
+
+<!-- Cotizador -->
+<div id="Cotiza" class="container-fluid">
+  <h4>Transfer y Tour</h4>
+      <h4>PROGRAME SU VIAJE DESDE/HACIA <strong>AEROPUERTO</strong> SCL</h4>
+      	<h3>Cotice y Agende</h3>
+      	
+<div role="form" class="wpcf7" id="wpcf7-f7-p2-o1" dir="ltr" lang="es-ES">
+    <div class="screen-reader-response"></div>
+    <form action="/#wpcf7-f7-p2-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+    <div style="display: none;">
+	    <input type="hidden" name="_wpcf7" value="7">
+	    <input type="hidden" name="_wpcf7_version" value="5.1.6">
+	    <input type="hidden" name="_wpcf7_locale" value="es_ES">
+	    <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f7-p2-o1">
+	    <input type="hidden" name="_wpcf7_container_post" value="2">
+	    <input type="hidden" name="_wpcf7cf_hidden_group_fields" value="[&quot;numvuelovuelta&quot;,&quot;fechhoravuelta&quot;]">
+	    <input type="hidden" name="_wpcf7cf_hidden_groups" value="[&quot;idayvuelta&quot;]">
+	    <input type="hidden" name="_wpcf7cf_visible_groups" value="[]">
+	    <input type="hidden" name="_wpcf7cf_repeaters" value="[]">
+	    <input type="hidden" name="_wpcf7cf_steps" value="{}">
+	    <input type="hidden" name="_wpcf7cf_options" value="{&quot;form_id&quot;:7,&quot;conditions&quot;:[{&quot;then_field&quot;:&quot;idayvuelta&quot;,&quot;and_rules&quot;:[{&quot;if_field&quot;:&quot;idayvuelta&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;if_value&quot;:&quot;Ida y Vuelta&quot;}]}],&quot;settings&quot;:{&quot;animation&quot;:&quot;yes&quot;,&quot;animation_intime&quot;:200,&quot;animation_outtime&quot;:200,&quot;notice_dismissed&quot;:false}}">
+	</div>
+    <div class="col-sm-12 iyv">
+    	<h5><i class="fas fa-plane-arrival"></i><i class="fas fa-home"></i> ¡Asegura tu <strong>vuelta a casa</strong>!</h5>
+    	<p> <span class="wpcf7-form-control-wrap idayvuelta"><span class="wpcf7-form-control wpcf7-checkbox wpcf7-validates-as-required wpcf7-exclusive-checkbox"><span class="wpcf7-list-item first"><input type="checkbox" name="idayvuelta" value="Ida y Vuelta"><span class="wpcf7-list-item-label">Solo Ida</span></span><span class="wpcf7-list-item last"><input type="checkbox" name="idayvuelta" value="Solo Ida" checked="checked"><span class="wpcf7-list-item-label">Ida y Vuelta</span></span></span></span>
+    	</p></div>
+    	
+    <div class="col-sm-6">
+    	<span class="wpcf7-form-control-wrap origen"><select name="origen" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false"><option value="" selected="">-- Desde</option><option value="Aeropuerto">Aeropuerto</option><optgroup label="Santiago"><option>Santiago Centro</option><option>Providencia</option><option>Las Condes</option><option>Vitacura</option><option>Pirque</option><option>Centros de Ski</option><option>Cajon del Maipo</option></optgroup><optgroup label="Región de Valparaiso"><option>Valparaiso</option><option>Viña del Mar</option><option>Isla Negra</option></optgroup></select></span>
+    </div>
+    
+    <div class="col-sm-6">
+    	<span class="wpcf7-form-control-wrap destino"><select name="destino" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false"><option value="" selected="">-- Hasta</option><option value="Aeropuerto">Aeropuerto</option><optgroup label="Santiago"><option>Santiago Centro</option><option>Providencia</option><option>Las Condes</option><option>Vitacura</option><option>Pirque</option><option>Centros de Ski</option><option>Cajon del Maipo</option></optgroup><optgroup label="Región de Valparaiso"><option>Valparaiso</option><option>Viña del Mar</option><option>Isla Negra</option></optgroup></select></span>
+    </div>
+    
+    <div class="col-sm-6">
+    	<span class="wpcf7-form-control-wrap cantidad"><select name="cantidad" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false"><option value="">-- Cantidad Pasajeros</option><option value="Hasta 3 Pasajeros">Hasta 3 Pasajeros</option><option value="Hasta 4 Pasajeros">Hasta 4 Pasajeros</option><option value="Hasta 7 Pasajeros">Hasta 7 Pasajeros</option><option value="*Más de 7 Pasajeros">*Más de 7 Pasajeros</option></select></span>
+    </div>
+    
+    <div class="col-sm-6">
+    	<span class="wpcf7-form-control-wrap direccion"><input type="text" name="direccion" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Dirección y Comuna"></span>
+    </div>
+    
+    <div class="col-sm-6">
+    	<span class="wpcf7-form-control-wrap numvuelo"><input type="text" name="numvuelo" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Vuelo: ej: LA 123"></span>
+    </div>
+    
+    <div class="col-sm-6">
+    	<span class="wpcf7-form-control-wrap fechhora"><input type="text" name="fechhora" value="" size="40" class="wpcf7-form-control wpcf7-date wpcf7-datetime wpcf7-validates-as-required hasDatepicker" aria-required="true" placeholder="Fecha y Hora Recogida" id="dp1583775840599"> </span>
+    </div>
+    
+    <div data-id="idayvuelta" data-orig_data_id="idayvuelta" data-clear_on_hide="" data-class="wpcf7cf_group" class="wpcf7cf-hidden">
+    
+    <div class="col-sm-6">
+    	<span class="wpcf7-form-control-wrap numvuelovuelta"><input type="text" name="numvuelovuelta" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Vuelo vuelta: ej: LA 123"></span>
+    </div>
+    
+    <div class="col-sm-6">
+    	<span class="wpcf7-form-control-wrap fechhoravuelta"><input type="text" name="fechhoravuelta" value="" size="40" class="wpcf7-form-control wpcf7-date wpcf7-datetime wpcf7-validates-as-required hasDatepicker" aria-required="true" placeholder="Fecha y Hora Recogida Vuelta" id="dp1583775840600"> </span>
+    </div>
+    
+    </div>
+    
+    <div class="col-sm-6">
+    <span class="wpcf7-form-control-wrap nombre"><input type="text" name="nombre" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Nombre"></span>
+    </div>
+    
+    <div class="col-sm-6">
+    <span class="wpcf7-form-control-wrap apellido"><input type="text" name="apellido" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Apellido"></span>
+    </div>
+    
+    <div class="col-sm-6">
+    <span class="wpcf7-form-control-wrap telefono"><input type="tel" name="telefono" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" placeholder="Teléfono"></span>
+    </div>
+    
+    <div class="col-sm-6">
+    <span class="wpcf7-form-control-wrap email"><input type="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email"></span>
+    </div>
+    
+    <div class="col-sm-12">
+    <span class="wpcf7-form-control-wrap comentario"><textarea name="comentario" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="¿Tiene algún Comentario?"></textarea></span>
+    </div>
+    
+    <div class="col-sm-6 valor-cotizacion"></div>
+    
+    <div class="col-sm-6 contact-submit">
+    <input type="submit" value="Agendar Servicio" class="wpcf7-form-control wpcf7-submit"><span class="ajax-loader"></span>
+    </div>
+    
+    <div class="col-sm-12">
+    <p><small>Toda reserva en linea tendrá que ser confirmada por la empresa y realizada a lo menos con 2 hrs. de anticipación, de lo contrario debe llamarnos al <a href="tel:+56932975285">(9) xxxxxx</a>.<br>
+    Equipaje por persona: 1 maleta y 1 bolso de mano. Consultar por equipaje especial.<br>
+    <em>*Más de 7 pasajeros requiere cotización especial.</em></small></p>
+    </div>
+    
+    <div class="wpcf7-response-output wpcf7-display-none"></div></form>
+    </div>
+
+</div>
+</header>
+
+<!-- Quienes somos-->
+
+<div class="container-fluid bg-grey">
+	<div class="row">
+ 	<div class="col-sm-4">
+ 		<span class="glyphicon glyphicon-globe logo slideanim"></span>
+ 	</div>
+<section id="Quienes">
+  <div class="container">
+  <h2>Flota del sur</h2>
+    <p class="h2 mb-2">
+      Somos una Empresa familiar, dedicada al rubro de traslado de pasajeros. Desde el 2018, comenzamos a brindar apoyo a diferentes empresas, prestando servicios externos para el traslado de pacientes, trabajadores y servicios de transfer desde el aeropuerto a distintas partes de Santiago y regiones.
+<br>
+<hr>
+	<p>
+     Contamos por el momento con dos Van con la capacidad para trasladar hasta 10 pasajeros, cada uno de nuestros conductores cuenta con Licencia clase A, seguro contra siniestros y accidentes, además contamos con seguro de pasajeros para su seguridad, solo deseamos que tu viaje sea el mas placentero.
+    </p>
+    <p class="h4">Don David</p>
+  </div>
+</section>
+ 	</div>
+</div>
+
+<!-- Iconos Propuesta Valor -->
+<div class="container-fluid text-center">
+ 	<h2>Servicio Transfer</h2>
+ 		<h4>Que ofrecemos</h4>
+ <br>
+ <div class="row slideanim">
+ 	<div class="col-sm-4">
+ 		<span class="glyphicon glyphicon-off logo-small" ></span>
+ 		<h4>ENERGIA</h4>
+		 <p>Trabajamos con pasión</p>
+ 	</div>
+ <br>
+ <div class="col-sm-4">
+ 	<span class="glyphicon glyphicon-lock logo-small" ></span>
+ 	<h4>TRABAJO TERMINADO</h4>
+ 	<p>Te dejamos en la puerta de tu destino</p>
+ </div>
+ <br>
+ <div class="col-sm-4">
+ 	<span class="glyphicon glyphicon-certificate logo-small"></span>
+	 <h4 >CERTIFICADO</h4>
+	 <p >Contamos con todos los seguros y permisos para tu seguridad</p>
+ </div>
+ 
+ </div>
+ </div>
+
+<!--  TOURS DESTINOS -->
+<div id="Tours" class="container-fluid text-center bg-grey">
+ <h2>TOURS</h2><br>
+ 	<h4>Destinos</h4>
+ <div class="row text-center slideanim">
+ 	<div class="col-sm-4">
+ 		<div class="thumbnail">
+ 			<img th:src="@{/images/sky.jpg}"  width="400" height="300"/>
+	 		<p class="text-dark"><strong>Idas a la nieve</strong></p>
+ 			<p class="text-dark">Te llevamos al centro de Ski de tu preferencia</p>
+ 		</div>
+ 	</div>
+ <div class="col-sm-4">
+ <div class="thumbnail">
+ 	<img src="/images/green.jpg" alt="New York" width="400" height="300">
+ 	<p><strong>Viñedos</strong></p>
+ 	<p>Las mejores rutas del vino para que disfrutes junto a tus seres queridos</p>
+ </div>
+ </div>
+ <div class="col-sm-4">
+ 	<div class="thumbnail">
+ 		<img src="/images/valpo.jpg" alt="San Francisco" width="400" height="300">
+ 			<p><strong>Valparaiso y alrededores</strong></p>
+ 			<p>Ve y conoce uno de los lugares mas iconicos de Chile</p>
+ 	</div>
+ </div>
+ 
+ </div><br>
+
+
+<!--Experiencias Clientes-->
+
+ <h2>Lo que nuestros clientes comentan</h2>
+ 
+ <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+ <!-- Indicators -->
+ 	<ol class="carousel-indicators">
+ 		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		<li data-target="#myCarousel" data-slide-to="1"></li>
+ 	</ol>
+ 	
+ <div class="carousel-inner" role="listbox">
+ 	<div class="item active">
+ 		<h4>"Muy amables, definitivamente los elijo para mi proximo viaje!"<br><span>Valentina Dávila, youtuber</span></h4>
+ 	</div>
+ <div class="item">
+ 		<h4>"Espectacular, muy profesionales!"<br><span>Myrian Mena, gerente Ritz Carlton</span></h4>
+ </div>
+ 
+ </div>
+
+ <!-- Left and right controls -->
+ 
+ <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+ 	<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+ 	<span class="sr-only">Previous</span>
+ </a>
+ <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+ <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+ <span class="sr-only">Next</span>
+ </a>
+ </div>
+</div>
+
+<!-- Pie de pagina -->
+<footer class="container-fluid text-center">
+
+</footer>
+
+
+<script type="text/javascript" src="/js/jquery-3.5.1.js"></script>
+<script type="text/javascript" src="/js/bootstrap.js"></script>
+
+<!-- script --> 
+    <script>
+      window.sr = ScrollReveal();
+      sr.reveal('.navbar', {
+        duration:2000,
+        origin: 'bottom'
+      });
+      sr.reveal('.header-content-left', {
+        duration:2000,
+        origin: 'top',
+        distance: '300px'
+      });
+      sr.reveal('.header-content-right', {
+        duration:2000,
+        origin: 'right',
+        distance: '300px'
+      });
+      sr.reveal('.header-btn', {
+        duration:2000,
+        origin: 'bottom',
+        delay: '1000'
+      });
+      sr.reveal('#testimonial', {
+        duration:2000,
+        origin: 'left',
+        distance: '300px',
+        viewFactor: 0.2
+      });
+
+      // Smoot scrolling
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+          anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+          });
+        });
+      });
+    </script>
+ 
+
+
+</body>
+</html>
