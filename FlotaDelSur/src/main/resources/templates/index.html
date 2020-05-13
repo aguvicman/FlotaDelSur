@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"> 
 <head>
 	<meta charset="utf-8">
 <title>Flota del sur</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="jquery.datetimepiker.min.css" rel="stylesheet"/>	
 		<link href="href=/css/bootstrap.css" rel="stylesheet" th:href="@{/css/bootstrap.css}"/>
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="normalize.css">
@@ -102,11 +103,12 @@
     	<span class="wpcf7-form-control-wrap numvuelo"><input type="text" name="numvuelo" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Vuelo: ej: LA 123"></span>
     </div>
     
-    <div class="col-sm-6">
-    	<span class="wpcf7-form-control-wrap fechhora"><input type="text" name="fechhora" value="" size="40" class="wpcf7-form-control wpcf7-date wpcf7-datetime wpcf7-validates-as-required hasDatepicker" aria-required="true" placeholder="Fecha y Hora Recogida" id="dp1583775840599"> </span>
-    </div>
     
-    <div data-id="idayvuelta" data-orig_data_id="idayvuelta" data-clear_on_hide="" data-class="wpcf7cf_group" class="wpcf7cf-hidden">
+    <!--  FECHA Y HORA RECOGIDA -->
+    
+    <div class="col-sm-6">
+    	<span class="wpcf7-form-control-wrap fechhora"><input type="text"  name="fechhora" value="" size="40" class="wpcf7-form-control wpcf7-date wpcf7-datetime wpcf7-validates-as-required hasDatepicker" aria-required="true" placeholder="Fecha y Hora Recogida" id="picker"> </span>
+    </div><div data-id="idayvuelta" data-orig_data_id="idayvuelta" data-clear_on_hide="" data-class="wpcf7cf_group" class="wpcf7cf-hidden">
     
     <div class="col-sm-6">
     	<span class="wpcf7-form-control-wrap numvuelovuelta"><input type="text" name="numvuelovuelta" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Vuelo vuelta: ej: LA 123"></span>
@@ -278,9 +280,12 @@
 
 <script type="text/javascript" src="/js/jquery-3.5.1.js"></script>
 <script type="text/javascript" src="/js/bootstrap.js"></script>
+<script src="jquery.datepicker.full.min.js"></script>
 
-<!-- script --> 
-    <script>
+<!-- script -->
+<script type="text/javascript">
+
+
       window.sr = ScrollReveal();
       sr.reveal('.navbar', {
         duration:2000,
@@ -319,8 +324,6 @@
         });
       });
     </script>
- 
-
-
+ 	
 </body>
 </html>
